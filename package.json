@@ -1,0 +1,16 @@
+{
+  "name": "playwright-project-wokspace",
+  "version": "1.0.0",
+  "description": "<h1>Steps to execute Test cases in</h1>\r <p>Step1: export -DBrowserType=chrome or webkit</p>\r <p>Step2: export -DheadLess=true or false</p>\r <p>Step3: run command in task ./gradlew test</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.49.1",
+    "playwright": "^1.49.1"
+  }
+}
